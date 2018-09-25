@@ -83,7 +83,7 @@ static inline int cursorWidth()
 		return int(width);
 	else
 #endif
-		return -1;
+		return 2;
 }
 
 //-----------------------------------------------------------------------------
