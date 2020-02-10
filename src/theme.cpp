@@ -184,6 +184,14 @@ Theme::~Theme()
 
 //-----------------------------------------------------------------------------
 
+Theme& Theme::operator=(const Theme& theme)
+{
+	d = theme.d;
+	return *this;
+}
+
+//-----------------------------------------------------------------------------
+
 QString Theme::clone(const QString& id, bool is_default, const QString& name)
 {
 	if (id.isEmpty()) {
@@ -416,9 +424,6 @@ QImage Theme::render(const QSize& background, QRect& foreground, const int margi
 
 		painter.save();
 		painter.translate(foreground.x(), foreground.y());
-#if (QT_VERSION < QT_VERSION_CHECK(5,9,0))
-		painter.scale(1.0 / pixelratio, 1.0 / pixelratio);
-#endif
 		qt_blurImage(&painter, blurred, blurRadius() * 2, true, false);
 		painter.restore();
 	}

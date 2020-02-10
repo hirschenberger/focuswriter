@@ -1,3 +1,39 @@
+1.7.4
+-----
+* FIXED: Broken emergency cache in Windows.
+* FIXED: Daily progress did not show star background with some themes.
+* Replaced deprecated code.
+* Translations: Catalan, Swedish.
+
+1.7.3
+-----
+* FIXED: Was not loading KDE icon theme.
+* FIXED: Headings menu was incorrectly shown in German.
+* Replaced deprecated code.
+* Translations: Friulian, German, Korean.
+
+1.7.2
+-----
+* FIXED: Minimum sizes for page counts were too high.
+* FIXED: Window icon didn't work in Wayland.
+* Require Qt 5.9.
+* Improved loading locales.
+* Translation updates: Friulian, Korean.
+
+1.7.1
+-----
+* FIXED: Did not launch when incorrect lock file was found.
+
+1.7.0
+-----
+* FIXED: Daily progress percentages were not locale aware.
+* FIXED: Scene list text was incorrect with Qt 5.12
+* Show current streak for previous day.
+* Improved detection of running instance.
+* Updated included hunspell.
+* Updated dictionaries.
+* Translation updates: Czech, Dutch, Hungarian.
+
 1.6.16
 ------
 * FIXED: Could not always save to remote drives.

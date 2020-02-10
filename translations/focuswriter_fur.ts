@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv" sourcelanguage="en">
+<TS version="2.1" language="fur" sourcelanguage="en">
 <context>
     <name>Alert</name>
     <message>
         <source>Close (%1)</source>
-        <translation>Stäng (%1)</translation>
+        <translation>Siere (%1)</translation>
     </message>
     <message>
         <source>Collapse</source>
-        <translation>Fäll in</translation>
+        <translation>Strenç</translation>
     </message>
     <message>
         <source>Expand</source>
-        <translation>Fäll ut</translation>
+        <translation>Vierç</translation>
     </message>
 </context>
 <context>
     <name>AlertLayer</name>
     <message>
         <source>Dismiss Alert</source>
-        <translation>Stäng varning</translation>
+        <translation>Mole la Atenzion</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
@@ -32,15 +32,15 @@
     <message numerus="yes">
         <source>%Ln word(s)</source>
         <translation>
-            <numerusform>%Ln ord</numerusform>
-            <numerusform>%Ln ord</numerusform>
+            <numerusform>%Ln peraule</numerusform>
+            <numerusform>%Ln peraulis</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln minute(s)</source>
         <translation>
-            <numerusform>%Ln minut</numerusform>
-            <numerusform>%Ln minuter</numerusform>
+            <numerusform>%Ln minût</numerusform>
+            <numerusform>%Ln minûts</numerusform>
         </translation>
     </message>
     <message>
@@ -50,15 +50,15 @@
     <message numerus="yes">
         <source>%L1% of %Ln minute(s)</source>
         <translation>
-            <numerusform>%L1% av %Ln minut</numerusform>
-            <numerusform>%L1% av %Ln minuter</numerusform>
+            <numerusform>%L1% of %Ln minût</numerusform>
+            <numerusform>%L1% of %Ln minûts</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%L1% of %Ln word(s)</source>
         <translation>
-            <numerusform>%L1% av %Ln ord</numerusform>
-            <numerusform>%L1% av %Ln ord</numerusform>
+            <numerusform>%L1% of %Ln peraule</numerusform>
+            <numerusform>%L1% of %Ln peraulis</numerusform>
         </translation>
     </message>
 </context>
@@ -66,15 +66,15 @@
     <name>DailyProgressDialog</name>
     <message>
         <source>Daily Progress</source>
-        <translation>Dagliga framsteg</translation>
+        <translation>Progrès in zornade</translation>
     </message>
     <message>
         <source>Longest streak</source>
-        <translation>Längsta svit</translation>
+        <translation>Striche Plui Lungje</translation>
     </message>
     <message>
         <source>Current streak</source>
-        <translation>Pågående svit</translation>
+        <translation>Striche Curint</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -83,8 +83,8 @@
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation>
-            <numerusform>%n dag</numerusform>
-            <numerusform>%n dagar</numerusform>
+            <numerusform>%n zornade</numerusform>
+            <numerusform>%n zornadis</numerusform>
         </translation>
     </message>
     <message>
@@ -96,196 +96,196 @@
     <name>DailyProgressLabel</name>
     <message>
         <source>%L1% of daily goal</source>
-        <translation>%L1% av dagligt mål</translation>
+        <translation>%L1% dal progrès di zornade</translation>
     </message>
 </context>
 <context>
     <name>DictionaryDialog</name>
     <message>
         <source>Set Language</source>
-        <translation>Ställ in språk</translation>
+        <translation>Selezione la lenghe</translation>
     </message>
 </context>
 <context>
     <name>Document</name>
     <message>
         <source>(Untitled %1)</source>
-        <translation>(Namnlös %1)</translation>
+        <translation>(Cence Titul %1)</translation>
     </message>
     <message>
         <source>%1 (Read-Only)</source>
-        <translation>%1 (Skrivskyddad)</translation>
+        <translation>%1 (Dome-Leture)</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Tyvärr</translation>
+        <translation>Mi displâs</translation>
     </message>
     <message>
         <source>Unable to save &apos;%1&apos;.</source>
-        <translation>Kunde inte spara &quot;%1&quot;.</translation>
+        <translation>No pues salvâ &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Save File As</source>
-        <translation>Spara fil som</translation>
+        <translation>Salve il file come</translation>
     </message>
     <message>
         <source>Unable to overwrite &apos;%1&apos;.</source>
-        <translation>Kunde inte skriva över &quot;%1&quot;.</translation>
+        <translation>Impussibil scrivi par sore &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Rename File</source>
-        <translation>Byt namn på fil</translation>
+        <translation>Cambie il non</translation>
     </message>
     <message>
         <source>Unable to rename &apos;%1&apos;.</source>
-        <translation>Kunde inte byta namn på filen &quot;%1&quot;.</translation>
+        <translation>Impussibil cambiâ in non &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>Reload File?</source>
-        <translation>Läs om fil?</translation>
+        <translation>Tornâ a cjariâ il file?</translation>
     </message>
     <message>
         <source>Reload the file &apos;%1&apos; from disk?</source>
-        <translation>Läs om filen &quot;%1&quot; från disk?</translation>
+        <translation>Ricjariâ il file &quot;%1&quot; dal disc?</translation>
     </message>
     <message>
         <source>All unsaved changes will be lost.</source>
-        <translation>Alla osparade ändringar kommer att gå förlorade.</translation>
+        <translation>Ducj i cambiaments a vignaran pierdûts.</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Läs om</translation>
+        <translation>Ricjarie</translation>
     </message>
     <message>
         <source>Untitled %1</source>
-        <translation>Namnlös %1</translation>
+        <translation>Cence Titul &amp;1</translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation>Domande</translation>
     </message>
     <message>
         <source>Saving as plain text will discard all formatting. Discard formatting?</source>
-        <translation>Att spara som vanlig text tar bort all formatering. Ta bort formatering?</translation>
+        <translation>Salvant in test plan si pierdaran dutis lis formatazions. Lassâ stâ la formatazion?</translation>
     </message>
 </context>
 <context>
     <name>DocumentWatcher</name>
     <message>
         <source>File Changed</source>
-        <translation>Filen ändrad</translation>
+        <translation>File Cambiât</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; was changed by another program.</source>
-        <translation>Filen &quot;%1&quot; har ändrats av ett annat program.</translation>
+        <translation>Il file &apos;%1&apos; al è stât cambiât di un altri program.</translation>
     </message>
     <message>
         <source>Do you want to reload the file?</source>
-        <translation>Vill du läsa om filen?</translation>
+        <translation>Âstu voie di ricjariâ il file?</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Läs om</translation>
+        <translation>Ricjarie</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ignorera</translation>
+        <translation>Lasse pierdi</translation>
     </message>
     <message>
         <source>File Deleted</source>
-        <translation>Fil raderad</translation>
+        <translation>File Cancelât</translation>
     </message>
     <message>
         <source>The file %1 was deleted by another program.</source>
-        <translation>Filen %1 togs bort av ett annat program.</translation>
+        <translation>Il file %1 al è stât cancelât di un altri program.</translation>
     </message>
     <message>
         <source>Do you want to save or close the file?</source>
-        <translation>Vill du spara eller stänga filen?</translation>
+        <translation>Âstu voie di salvâ o sierâ il file?</translation>
     </message>
 </context>
 <context>
     <name>DocxReader</name>
     <message>
         <source>Unable to open archive.</source>
-        <translation>Kunde inte öppna arkiv.</translation>
+        <translation>Impussibil vierzi l&apos;archivi.</translation>
     </message>
 </context>
 <context>
     <name>FindDialog</name>
     <message>
         <source>Search for:</source>
-        <translation>Sök efter:</translation>
+        <translation>Cîr:</translation>
     </message>
     <message>
         <source>Replace with:</source>
-        <translation>Ersätt med:</translation>
+        <translation>Cambie cun:</translation>
     </message>
     <message>
         <source>Ignore case</source>
-        <translation>Ignorera skiftläge</translation>
+        <translation>Lasse pierdi il câs</translation>
     </message>
     <message>
         <source>Whole words only</source>
-        <translation>Endast hela ord</translation>
+        <translation>Dome peraulis interiis</translation>
     </message>
     <message>
         <source>Regular expressions</source>
-        <translation>Reguljära uttryck</translation>
+        <translation>Espression regolâr</translation>
     </message>
     <message>
         <source>Search up</source>
-        <translation>Sök uppåt</translation>
+        <translation>Cîr par sù</translation>
     </message>
     <message>
         <source>Search down</source>
-        <translation>Sök nedåt</translation>
+        <translation>Cîr par jù</translation>
     </message>
     <message>
         <source>&amp;Find</source>
-        <translation>&amp;Sök</translation>
+        <translation>Cîr</translation>
     </message>
     <message>
         <source>&amp;Replace</source>
-        <translation>&amp;Ersätt</translation>
+        <translation>Rimplace</translation>
     </message>
     <message>
         <source>Replace &amp;All</source>
-        <translation>Ersätt &amp;alla</translation>
+        <translation>Rimplace Dut</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Sök</translation>
+        <translation>Cîr</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation>Ersätt</translation>
+        <translation>Rimplace</translation>
     </message>
     <message numerus="yes">
         <source>Replace %n instance(s)?</source>
         <translation>
-            <numerusform>Ersätt %n förekomst?</numerusform>
-            <numerusform>Ersätt %n förekomster?</numerusform>
+            <numerusform>Rimplaçâ %n istance?</numerusform>
+            <numerusform>Rimplaçâ %n istancis?</numerusform>
         </translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation>Domande</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Tyvärr</translation>
+        <translation>Mi displâs</translation>
     </message>
     <message>
         <source>Phrase not found.</source>
-        <translation>Frasen hittades inte.</translation>
+        <translation>Frase no cjatade.</translation>
     </message>
 </context>
 <context>
     <name>FormatManager</name>
     <message>
         <source>OpenDocument Text</source>
-        <translation>OpenDocument text</translation>
+        <translation>OpenDocument Test</translation>
     </message>
     <message>
         <source>Office Open XML</source>
@@ -297,15 +297,15 @@
     </message>
     <message>
         <source>Plain Text</source>
-        <translation>Vanlig text</translation>
+        <translation>Test plan</translation>
     </message>
     <message>
         <source>All Files</source>
-        <translation>Alla filer</translation>
+        <translation>Ducj i files</translation>
     </message>
     <message>
         <source>All Supported Files</source>
-        <translation>Alla filer som stöds</translation>
+        <translation>Ducj i files sopuartâts</translation>
     </message>
     <message>
         <source>OpenDocument Flat XML</source>
@@ -316,882 +316,882 @@
     <name>Highlighter</name>
     <message>
         <source>Add</source>
-        <translation>Lägg till</translation>
+        <translation>Zonte</translation>
     </message>
     <message>
         <source>Check Spelling...</source>
-        <translation>Kontrollera stavning...</translation>
+        <translation>Controle Spelling...</translation>
     </message>
     <message>
         <source>(No suggestions found)</source>
-        <translation>(Inga förslag hittades)</translation>
+        <translation>(Nissun sugjeriment cjatât)</translation>
     </message>
 </context>
 <context>
     <name>ImageButton</name>
     <message>
         <source>Open Image</source>
-        <translation>Öppna bild</translation>
+        <translation>Vierç Imagjine</translation>
     </message>
     <message>
         <source>Images(%1)</source>
-        <translation>Bilder(%1)</translation>
+        <translation>Imagjinis(%1)</translation>
     </message>
 </context>
 <context>
     <name>LocaleDialog</name>
     <message>
         <source>Select application language:</source>
-        <translation>Välj programspråk:</translation>
+        <translation>Selezione la lenghe de aplicazion:</translation>
     </message>
     <message>
         <source>&lt;System Language&gt;</source>
-        <translation>&lt;Systemspråk&gt;</translation>
+        <translation>&lt;System Language&gt;</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Observera</translation>
+        <translation>Notis</translation>
     </message>
     <message>
         <source>Please restart this application for the change in language to take effect.</source>
-        <translation>Starta om programmet för att språkändringen ska aktiveras.</translation>
+        <translation>Par plasè stude e torne impie la aplicazion parcè che il cambiament de lenghe al vedi efiet.</translation>
     </message>
 </context>
 <context>
     <name>OdtReader</name>
     <message>
         <source>Unable to open archive.</source>
-        <translation>Kunde inte öppna arkiv</translation>
+        <translation>Impussibil vierzi l&apos;archivi.</translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialog</name>
     <message>
         <source>Preferences</source>
-        <translation>Inställningar</translation>
+        <translation>Preferencis</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Allmänt</translation>
+        <translation>Gjenerâl</translation>
     </message>
     <message>
         <source>Statistics</source>
-        <translation>Statistik</translation>
+        <translation>Statistichis</translation>
     </message>
     <message>
         <source>Toolbar</source>
-        <translation>Verktygsrad</translation>
+        <translation>Toolbar</translation>
     </message>
     <message>
         <source>Spell Checking</source>
-        <translation>Stavningskontroll</translation>
+        <translation>Controle la ortografie</translation>
     </message>
     <message>
         <source>Select Dictionary</source>
-        <translation>Välj ordbok</translation>
+        <translation>Selezione dizionari</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Tyvärr</translation>
+        <translation>Mi displâs</translation>
     </message>
     <message>
         <source>Unable to open archive.</source>
-        <translation>Kunde inte öppna arkivet.</translation>
+        <translation>Impussibil vierzi l&apos;archivi.</translation>
     </message>
     <message>
         <source>The archive does not contain a usable dictionary.</source>
-        <translation>Arkivet innehåller ingen användbar ordbok.</translation>
+        <translation>L&apos;archivi nol à dentri un dizionari che si pues doprâ.</translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation>Domande</translation>
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation>Genvägar</translation>
+        <translation>Scurtadoriis</translation>
     </message>
     <message>
         <source>One or more shortcuts conflict. Do you wish to proceed?</source>
-        <translation>Genvägar i konflikt. Vill du fortsätta?</translation>
+        <translation>Une o plui scurtadoriis a son in conflit. Vadio indenant istes?</translation>
     </message>
     <message>
         <source>The dictionary &quot;%1&quot; already exists. Do you want to replace it?</source>
-        <translation>Ordboken &quot;%1&quot; finns redan. Vill du ersätta den?</translation>
+        <translation>Il dizionari &quot;%1&quot; al esist za. Âstu voie di rimplaçâlu?</translation>
     </message>
     <message>
         <source>Daily Goal</source>
-        <translation>Dagligt mål</translation>
+        <translation>Obietîf di zornade</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Inget</translation>
+        <translation>Nuie</translation>
     </message>
     <message>
         <source>Minutes:</source>
-        <translation>Minuter:</translation>
+        <translation>Minûts:</translation>
     </message>
     <message>
         <source>Words:</source>
-        <translation>Ord:</translation>
+        <translation>Peraulis:</translation>
     </message>
     <message>
         <source>Editing</source>
-        <translation>Redigering</translation>
+        <translation>Editing</translation>
     </message>
     <message>
         <source>Always vertically center</source>
-        <translation>Centrera alltid vertikalt</translation>
+        <translation>Za centrât in verticâl</translation>
     </message>
     <message>
         <source>Block insertion cursor</source>
-        <translation>Blockmarkör för infogning</translation>
+        <translation>Block insertion cursor</translation>
     </message>
     <message>
         <source>Smooth fonts</source>
-        <translation>Mjuka typsnitt</translation>
+        <translation>Fonts Lissis</translation>
     </message>
     <message>
         <source>Typewriter sounds</source>
-        <translation>Skrivmaskinsljud</translation>
+        <translation>Suns de machine di scrivi</translation>
     </message>
     <message>
         <source>Smart quotes:</source>
-        <translation>Smarta citationstecken:</translation>
+        <translation>Smart quotes:</translation>
     </message>
     <message>
         <source>Double</source>
-        <translation>Dubbel</translation>
+        <translation>Dopli</translation>
     </message>
     <message>
         <source>Single</source>
-        <translation>Enkel</translation>
+        <translation>Singul</translation>
     </message>
     <message>
         <source>Scenes</source>
-        <translation>Scener</translation>
+        <translation>Senis</translation>
     </message>
     <message>
         <source>Divider:</source>
-        <translation>Avdelare:</translation>
+        <translation>Divisôr:</translation>
     </message>
     <message>
         <source>Saving</source>
-        <translation>Spara</translation>
+        <translation>O stoi salvant</translation>
     </message>
     <message>
         <source>Remember cursor position</source>
-        <translation>Kom ihåg markörposition</translation>
+        <translation>Visiti la posizion dal cursôr</translation>
     </message>
     <message>
         <source>Word count</source>
-        <translation>Antal ord</translation>
+        <translation>Contegjo Peraulis</translation>
     </message>
     <message>
         <source>Page count</source>
-        <translation>Antal sidor</translation>
+        <translation>Contegjo Pagjinis</translation>
     </message>
     <message>
         <source>Paragraph count</source>
-        <translation>Antal stycken</translation>
+        <translation>Contegjo Paragrafis</translation>
     </message>
     <message>
         <source>Character count</source>
-        <translation>Antal tecken</translation>
+        <translation>Contegjo caratars</translation>
     </message>
     <message>
         <source>Characters:</source>
-        <translation>Tecken:</translation>
+        <translation>Caratars:</translation>
     </message>
     <message>
         <source>Paragraphs:</source>
-        <translation>Stycken:</translation>
+        <translation>Paragrafis:</translation>
     </message>
     <message>
         <source>Word Count Algorithm</source>
-        <translation>Algoritm för ordantal</translation>
+        <translation>Algoritmi pal contegjo des peraulis</translation>
     </message>
     <message>
         <source>Reset daily progress for today to zero?</source>
-        <translation>Återställ dagligt mål för idag till noll?</translation>
+        <translation>Resetâ il progrès de zornade a zero?</translation>
     </message>
     <message>
         <source>Write byte order mark in plain text files</source>
-        <translation>Skriv byteordningsmärke i vanliga textfiler</translation>
+        <translation>Scrivi byte order mark intai file di test plan</translation>
     </message>
     <message>
         <source>Default format:</source>
-        <translation>Standardformat:</translation>
+        <translation>Formât di default:</translation>
     </message>
     <message>
         <source>Reset Today</source>
-        <translation>Återställ idag</translation>
+        <translation>Resete Vuê</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Historik</translation>
+        <translation>Storie</translation>
     </message>
     <message>
         <source>Remember history</source>
-        <translation>Kom ihåg historik</translation>
+        <translation>Visiti de storie</translation>
     </message>
     <message>
         <source>Show streaks</source>
-        <translation>Visa sviter</translation>
+        <translation>Mostre Strichis</translation>
     </message>
     <message>
         <source>Minimum progress for streaks:</source>
-        <translation>Minsta framsteg för sviter:</translation>
+        <translation>Minim progrès des strichis:</translation>
     </message>
     <message>
         <source>Detect word boundaries</source>
-        <translation>Identifiera ordgränser</translation>
+        <translation>Viôt limits des peraulis</translation>
     </message>
     <message>
         <source>Divide character count by six</source>
-        <translation>Dela teckenantal med sex</translation>
+        <translation>Divît i caratars par sîs</translation>
     </message>
     <message>
         <source>Count each letter as a word</source>
-        <translation>Räkna varje bokstav som ett ord</translation>
+        <translation>Conte ogni letare come une peraule</translation>
     </message>
     <message>
         <source>Page Count Algorithm</source>
-        <translation>Sidräkningsalgoritm</translation>
+        <translation>Algoritmi pal contegjo des pagjinis</translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Stil</translation>
+        <translation>Stîl</translation>
     </message>
     <message>
         <source>Icons Only</source>
-        <translation>Endast ikoner</translation>
+        <translation>Dome Iconis</translation>
     </message>
     <message>
         <source>Text Only</source>
-        <translation>Endast text</translation>
+        <translation>Dome Test</translation>
     </message>
     <message>
         <source>Text Alongside Icons</source>
-        <translation>Text bredvid ikoner</translation>
+        <translation>Test Dongje Iconis</translation>
     </message>
     <message>
         <source>Text Under Icons</source>
-        <translation>Text under ikoner</translation>
+        <translation>Test Sot Iconis</translation>
     </message>
     <message>
         <source>Text Position:</source>
-        <translation>Textposition:</translation>
+        <translation>Posizion Test:</translation>
     </message>
     <message>
         <source>Actions</source>
-        <translation>Åtgärder</translation>
+        <translation>Azions</translation>
     </message>
     <message>
         <source>Move Up</source>
-        <translation>Flytta uppåt</translation>
+        <translation>Môf sù</translation>
     </message>
     <message>
         <source>Move Down</source>
-        <translation>Flytta nedåt</translation>
+        <translation>Môf jù</translation>
     </message>
     <message>
         <source>Add Separator</source>
-        <translation>Lägg till avgränsare</translation>
+        <translation>Zonte Separatôr</translation>
     </message>
     <message>
         <source>Command</source>
-        <translation>Kommando</translation>
+        <translation>Comant</translation>
     </message>
     <message>
         <source>Shortcut</source>
-        <translation>Genväg</translation>
+        <translation>Scurtadorie</translation>
     </message>
     <message>
         <source>Action</source>
-        <translation>Åtgärd</translation>
+        <translation>Azion</translation>
     </message>
     <message>
         <source>Check spelling as you type</source>
-        <translation>Kontrollera stavning när du skriver</translation>
+        <translation>Check spelling as you type</translation>
     </message>
     <message>
         <source>Ignore words in UPPERCASE</source>
-        <translation>Ignorera ord med VERSALER</translation>
+        <translation>Lasse lis peraulis MAIUSCULIS</translation>
     </message>
     <message>
         <source>Ignore words with numbers</source>
-        <translation>Ignorera ord med siffror</translation>
+        <translation>Lasse lis peraulis cun numars</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Språk</translation>
+        <translation>Lenghe</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Lägg till</translation>
+        <translation>Zonte</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Ta bort</translation>
+        <translation>Gjave</translation>
     </message>
     <message>
         <source>Personal Dictionary</source>
-        <translation>Personlig ordbok</translation>
+        <translation>Dizionari Personâl</translation>
     </message>
     <message>
         <source>Remove current dictionary?</source>
-        <translation>Ta bort aktuell ordlista?</translation>
+        <translation>Gjavâ il dizionari curint?</translation>
     </message>
     <message>
         <source>User Interface</source>
-        <translation>Användargränssnitt</translation>
+        <translation>Interface dal Utilizadôr</translation>
     </message>
     <message>
         <source>Always show scrollbar</source>
-        <translation>Visa alltid rullist</translation>
+        <translation>Mostre simpri lis scrollbars</translation>
     </message>
     <message>
         <source>Always show top bar</source>
-        <translation>Visa alltid topplist</translation>
+        <translation>Mostre simpri la bare sore</translation>
     </message>
     <message>
         <source>Always show bottom bar</source>
-        <translation>Visa alltid bottenlist</translation>
+        <translation>Mostre simpri la bare sot</translation>
     </message>
 </context>
 <context>
     <name>RtfReader</name>
     <message>
         <source>Not a supported RTF file.</source>
-        <translation>Inte en stödd RTF-fil.</translation>
+        <translation>File RTF no supuartât</translation>
     </message>
 </context>
 <context>
     <name>RtfTokenizer</name>
     <message>
         <source>Unexpectedly reached end of file.</source>
-        <translation>Nådde oväntat filslut.</translation>
+        <translation>Cence savê rivâts ae fin dal file.</translation>
     </message>
 </context>
 <context>
     <name>SceneList</name>
     <message>
         <source>Ctrl+Shift+Down</source>
-        <translation>Ctrl+Skift+Ned</translation>
+        <translation>Ctrl+Shift+Down</translation>
     </message>
     <message>
         <source>Move Scenes Up</source>
-        <translation>Flytta upp scener</translation>
+        <translation>Môf senis in sù</translation>
     </message>
     <message>
         <source>Ctrl+Shift+Up</source>
-        <translation>Ctrl+Skift+Upp</translation>
+        <translation>Ctrl+Shift+Up</translation>
     </message>
     <message>
         <source>Toggle Scene List</source>
-        <translation>Växla scenlista</translation>
+        <translation>Alterne la liste des senis</translation>
     </message>
     <message>
         <source>Shift+F4</source>
-        <translation>Skift+F4</translation>
+        <translation>Shift+F4</translation>
     </message>
     <message>
         <source>Show scene list (%1)</source>
-        <translation>Visa scenlista (%1)</translation>
+        <translation>Mostre la liste des senis (%1)</translation>
     </message>
     <message>
         <source>Hide scene list (%1)</source>
-        <translation>Dölj scenlista (%1)</translation>
+        <translation>Plate la liste des senis (%1)</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>Filtri</translation>
     </message>
     <message>
         <source>Move Scenes Down</source>
-        <translation>Flytta ner scener</translation>
+        <translation>Môf senis in jù</translation>
     </message>
     <message>
         <source>Resize scene list</source>
-        <translation>Storleksändra scenlista</translation>
+        <translation>Ridimensione la liste des senis</translation>
     </message>
 </context>
 <context>
     <name>Session</name>
     <message>
         <source>Default</source>
-        <translation>Standard</translation>
+        <translation>Default</translation>
     </message>
 </context>
 <context>
     <name>SessionManager</name>
     <message>
         <source>Manage Sessions</source>
-        <translation>Hantera sessioner</translation>
+        <translation>Gjestis Sessions</translation>
     </message>
     <message>
         <source>S&amp;essions</source>
-        <translation>S&amp;essioner</translation>
+        <translation>Sessions</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Ny</translation>
+        <translation>Gnûf</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation>Duplicera</translation>
+        <translation>Dupliche</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation>Byt namn</translation>
+        <translation>Rinomine</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Ta bort</translation>
+        <translation>Cancele</translation>
     </message>
     <message>
         <source>Switch To</source>
-        <translation>Växla till</translation>
+        <translation>Cambie Cun</translation>
     </message>
     <message>
         <source>New Session</source>
-        <translation>Ny session</translation>
+        <translation>Gnove Session</translation>
     </message>
     <message>
         <source>Duplicate Session</source>
-        <translation>Duplicera session</translation>
+        <translation>Dupliche Session</translation>
     </message>
     <message>
         <source>Rename Session</source>
-        <translation>Byt namn på session</translation>
+        <translation>Rinomine Session</translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation>Domande</translation>
     </message>
     <message>
         <source>Delete selected session?</source>
-        <translation>Ta bort markerad session?</translation>
+        <translation>Cancelâ la session selezionade?</translation>
     </message>
     <message>
         <source>Session name:</source>
-        <translation>Sessionsnamn:</translation>
+        <translation>Non de Session:</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Tyvärr</translation>
+        <translation>Mi displâs</translation>
     </message>
     <message>
         <source>The requested session name is already in use.</source>
-        <translation>Det begärda sessionsnamnet används redan.</translation>
+        <translation>La session cun chest non je za doprade.</translation>
     </message>
     <message>
         <source>&amp;New...</source>
-        <translation>&amp;Ny...</translation>
+        <translation>Gnûf...</translation>
     </message>
     <message>
         <source>Ctrl+Shift+N</source>
-        <translation>Ctrl+Skift+N</translation>
+        <translation>Ctrl+Shift+N</translation>
     </message>
     <message>
         <source>&amp;Manage...</source>
-        <translation>&amp;Hantera...</translation>
+        <translation>Gjestis...</translation>
     </message>
     <message>
         <source>Ctrl+Shift+M</source>
-        <translation>Ctrl+Skift+N</translation>
+        <translation>Ctrl+Shift+M</translation>
     </message>
 </context>
 <context>
     <name>ShortcutEdit</name>
     <message>
         <source>Clear</source>
-        <translation>Töm</translation>
+        <translation>Nete</translation>
     </message>
     <message>
         <source>Reset to Default</source>
-        <translation>Återställ till förval</translation>
+        <translation>Resete cun Default</translation>
     </message>
     <message>
         <source>Shortcut:</source>
-        <translation>Genväg:</translation>
+        <translation>Scurtadorie:</translation>
     </message>
 </context>
 <context>
     <name>SmartQuote</name>
     <message>
         <source>Replacing quotation marks...</source>
-        <translation>Ersätter citationstecken...</translation>
+        <translation>Replacing quotation marks...</translation>
     </message>
     <message>
         <source>Please Wait</source>
-        <translation>Vänta</translation>
+        <translation>Par plasè spiete</translation>
     </message>
 </context>
 <context>
     <name>SpellChecker</name>
     <message>
         <source>Check Spelling</source>
-        <translation>Kontrollera stavning</translation>
+        <translation>Controle Ortografie</translation>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation>&amp;Lägg till</translation>
+        <translation>Zonte</translation>
     </message>
     <message>
         <source>&amp;Ignore</source>
-        <translation>&amp;Ignorera</translation>
+        <translation>Lasse</translation>
     </message>
     <message>
         <source>I&amp;gnore All</source>
-        <translation>I&amp;gnorera alla</translation>
+        <translation>Lasse Dut</translation>
     </message>
     <message>
         <source>&amp;Change</source>
-        <translation>&amp;Ändra</translation>
+        <translation>Cambie</translation>
     </message>
     <message>
         <source>C&amp;hange All</source>
-        <translation>Ä&amp;ndra alla</translation>
+        <translation>Cambie Dut</translation>
     </message>
     <message>
         <source>Not in dictionary:</source>
-        <translation>Finns inte i ordboken:</translation>
+        <translation>Nol è intal dizionari:</translation>
     </message>
     <message>
         <source>Change to:</source>
-        <translation>Ändra till:</translation>
+        <translation>Cambie cun:</translation>
     </message>
     <message>
         <source>Checking spelling...</source>
-        <translation>Kontrollerar stavning...</translation>
+        <translation>O stoi controlant l&apos;ortografie...</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <translation>Cancele</translation>
     </message>
     <message>
         <source>Please wait</source>
-        <translation>Vänta</translation>
+        <translation>Par plasè spiete</translation>
     </message>
     <message>
         <source>Continue checking at beginning of file?</source>
-        <translation>Fortsätt kontrollera i början av filen?</translation>
+        <translation>Continuâ il control da l&apos;inizi dal file?</translation>
     </message>
     <message>
         <source>Spell check complete.</source>
-        <translation>Stavningskontrollen är färdig.</translation>
+        <translation>Control Ortografie finît.</translation>
     </message>
 </context>
 <context>
     <name>SymbolsDialog</name>
     <message>
         <source>Symbols</source>
-        <translation>Symboler</translation>
+        <translation>Simbui</translation>
     </message>
     <message>
         <source>Recently used symbols</source>
-        <translation>Nyligen använda symboler</translation>
+        <translation>Simbui doprâts di resint</translation>
     </message>
     <message>
         <source>All symbols</source>
-        <translation>Alla symboler</translation>
+        <translation>Ducj i Simbui</translation>
     </message>
     <message>
         <source>Details</source>
-        <translation>Detaljer</translation>
+        <translation>Detais</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>Namn:</translation>
+        <translation>Non:</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Infoga</translation>
+        <translation>Inserìs</translation>
     </message>
 </context>
 <context>
     <name>SymbolsModel</name>
     <message>
         <source>Blocks</source>
-        <translation>Tecken</translation>
+        <translation>Blocs</translation>
     </message>
     <message>
         <source>Scripts</source>
-        <translation>Skriftspråk</translation>
+        <translation>Scripts</translation>
     </message>
 </context>
 <context>
     <name>Theme</name>
     <message>
         <source>Untitled %1</source>
-        <translation>Namnlös %1</translation>
+        <translation>Cence Titul %1</translation>
     </message>
 </context>
 <context>
     <name>ThemeDialog</name>
     <message>
         <source>Name:</source>
-        <translation>Namn:</translation>
+        <translation>Non:</translation>
     </message>
     <message>
         <source>No Image</source>
-        <translation>Ingen bild</translation>
+        <translation>Cence Imagjine</translation>
     </message>
     <message>
         <source>Tiled</source>
-        <translation>Sida vid sida</translation>
+        <translation>A Tocs</translation>
     </message>
     <message>
         <source>Centered</source>
-        <translation>Centrerad</translation>
+        <translation>Centrât</translation>
     </message>
     <message>
         <source>Stretched</source>
-        <translation>Utsträckt</translation>
+        <translation>Stirât</translation>
     </message>
     <message>
         <source>Scaled</source>
-        <translation>Skalad</translation>
+        <translation>Scalât</translation>
     </message>
     <message>
         <source>Zoomed</source>
-        <translation>Zoomad</translation>
+        <translation>Zoomât</translation>
     </message>
     <message>
         <source>Opacity:</source>
-        <translation>Opacitet:</translation>
+        <translation>Trasparence:</translation>
     </message>
     <message>
         <source>Position:</source>
-        <translation>Position:</translation>
+        <translation>Posizion:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Bredd:</translation>
+        <translation>Largjece:</translation>
     </message>
     <message>
         <source>Round Text Background Corners</source>
-        <translation>Runda textbakgrundshörn</translation>
+        <translation>Round Text Background Corners</translation>
     </message>
     <message>
         <source>Radius:</source>
-        <translation>Radie:</translation>
+        <translation>Ragjo:</translation>
     </message>
     <message>
         <source>Blur Text Background</source>
-        <translation>Gör textbakgrund suddig</translation>
+        <translation>Blur Text Background</translation>
     </message>
     <message>
         <source>Text Background Drop Shadow</source>
-        <translation>Texbakgrundsskugga</translation>
+        <translation>Text Background Drop Shadow</translation>
     </message>
     <message>
         <source>Vertical Offset:</source>
-        <translation>Vertikal förskjutning:</translation>
+        <translation>Spostament Verticâl:</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Marginaler</translation>
+        <translation>Margjins</translation>
     </message>
     <message>
         <source>Window:</source>
-        <translation>Fönster:</translation>
+        <translation>Barcon:</translation>
     </message>
     <message>
         <source>Page:</source>
-        <translation>Sida:</translation>
+        <translation>Pagjine:</translation>
     </message>
     <message>
         <source>Indent first line</source>
-        <translation>Gör indrag första raden</translation>
+        <translation>Sposte in dentri la prime linie</translation>
     </message>
     <message>
         <source>Above:</source>
-        <translation>Ovanför:</translation>
+        <translation>Par sore:</translation>
     </message>
     <message>
         <source>Below:</source>
-        <translation>Under:</translation>
+        <translation>Sot:</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Ta bort</translation>
+        <translation>Gjave</translation>
     </message>
     <message>
         <source>Edit Theme</source>
-        <translation>Redigera tema</translation>
+        <translation>Edite Teme</translation>
     </message>
     <message>
         <source>Window Background</source>
-        <translation>Fönsterbakgrund</translation>
+        <translation>Fondâl dal Barcon</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Typ:</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Color:</source>
-        <translation>Färg:</translation>
+        <translation>Colôr:</translation>
     </message>
     <message>
         <source>Image:</source>
-        <translation>Bild:</translation>
+        <translation>Imagjine:</translation>
     </message>
     <message>
         <source> pixels</source>
-        <translation> bildpunkter</translation>
+        <translation>pixels</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Vänster</translation>
+        <translation>Çampe</translation>
     </message>
     <message>
         <source>Text Background</source>
-        <translation>Textbakgrund</translation>
+        <translation>Colôr Fondâl dal Test</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Höger</translation>
+        <translation>Diestre</translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Text</translation>
+        <translation>Test</translation>
     </message>
     <message>
         <source>Font:</source>
-        <translation>Typsnitt:</translation>
+        <translation>Font:</translation>
     </message>
     <message>
         <source>Misspelled:</source>
-        <translation>Felstavning:</translation>
+        <translation>Pierdût:</translation>
     </message>
     <message>
         <source>Line Spacing</source>
-        <translation>Radavstånd</translation>
+        <translation>Spaziature Liniis</translation>
     </message>
     <message>
         <source>Single</source>
-        <translation>Enkelt</translation>
+        <translation>Singul</translation>
     </message>
     <message>
         <source>1.5 Lines</source>
-        <translation>1,5 radavstånd</translation>
+        <translation>1.5 Liniis</translation>
     </message>
     <message>
         <source>Double</source>
-        <translation>Dubbelt</translation>
+        <translation>Dopli</translation>
     </message>
     <message>
         <source>Proportional</source>
-        <translation>Proportionellt</translation>
+        <translation>Proporzionâl</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Höjd:</translation>
+        <translation>Altece:</translation>
     </message>
     <message>
         <source>Paragraph Spacing</source>
-        <translation>Styckeavstånd</translation>
+        <translation>Spaziadure Paragraf</translation>
     </message>
     <message>
         <source>Tab Width:</source>
-        <translation>Tabbredd:</translation>
+        <translation>Largjece Tab:</translation>
     </message>
     <message>
         <source>New Theme</source>
-        <translation>Nytt tema</translation>
+        <translation>Gnûf Temi</translation>
     </message>
 </context>
 <context>
     <name>ThemeManager</name>
     <message>
         <source>Themes</source>
-        <translation>Teman</translation>
+        <translation>Temis</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Standard</translation>
+        <translation>Default</translation>
     </message>
     <message>
         <source>Gentle Blues</source>
-        <translation>Mjukblått</translation>
+        <translation>Gentle Blues</translation>
     </message>
     <message>
         <source>Old School</source>
-        <translation>Gamla skolan</translation>
+        <translation>Old School</translation>
     </message>
     <message>
         <source>Space Dreams</source>
-        <translation>Rymddrömmar</translation>
+        <translation>Space Dreams</translation>
     </message>
     <message>
         <source>Writing Desk</source>
-        <translation>Skrivbord</translation>
+        <translation>Writing Desk</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Nytt</translation>
+        <translation>Gnûf</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation>Duplicera</translation>
+        <translation>Dupliche</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Anpassade</translation>
+        <translation>Personalize</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Redigera</translation>
+        <translation>Edite</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Ta bort</translation>
+        <translation>Cancele</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importera</translation>
+        <translation>Impuarte</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation>Exportera</translation>
+        <translation>Espuarte</translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation>Domande</translation>
     </message>
     <message>
         <source>Delete theme &apos;%1&apos;?</source>
-        <translation>Ta bort tema &quot;%1&quot;?</translation>
+        <translation>Cancelâ temi &quot;%1&quot;?</translation>
     </message>
     <message>
         <source>Themes (%1)</source>
-        <translation>Teman (%1)</translation>
+        <translation>Temis (%1)</translation>
     </message>
     <message>
         <source>Import Theme</source>
-        <translation>Importera tema</translation>
+        <translation>Impuarte Teme</translation>
     </message>
     <message>
         <source>Export Theme</source>
-        <translation>Exportera tema</translation>
+        <translation>Espuarte Teme</translation>
     </message>
     <message>
         <source>Bitter Skies</source>
-        <translation>Bittra himlar</translation>
+        <translation>Bitter Skies</translation>
     </message>
     <message>
         <source>Enchantment</source>
-        <translation>Förtrollning</translation>
+        <translation>Enchantment</translation>
     </message>
     <message>
         <source>Spy Games</source>
-        <translation>Spionspel</translation>
+        <translation>Spy Games</translation>
     </message>
     <message>
         <source>Tranquility</source>
-        <translation>Fridfullhet</translation>
+        <translation>Tranquility</translation>
     </message>
 </context>
 <context>
@@ -1202,43 +1202,43 @@
     </message>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation>Domande</translation>
     </message>
     <message>
         <source>Delete timer?</source>
-        <translation>Ta bort tidtagare?</translation>
+        <translation>Cancelâ il Timer?</translation>
     </message>
     <message>
         <source>&lt;b&gt;Words:&lt;/b&gt; %L1</source>
-        <translation>&lt;b&gt;Ord:&lt;/b&gt; %L1</translation>
+        <translation>&lt;b&gt;Words:&lt;/b&gt; %L1</translation>
     </message>
     <message>
         <source>&lt;b&gt;Pages:&lt;/b&gt; %L1</source>
-        <translation>&lt;b&gt;Sidor:&lt;/b&gt; %L1</translation>
+        <translation>&lt;b&gt;Pages:&lt;/b&gt; %L1</translation>
     </message>
     <message>
         <source>&lt;b&gt;Paragraphs:&lt;/b&gt; %L1</source>
-        <translation>&lt;b&gt;Stycken:&lt;/b&gt; %L1</translation>
+        <translation>&lt;b&gt;Paragraphs:&lt;/b&gt; %L1</translation>
     </message>
     <message>
         <source>&lt;b&gt;Characters:&lt;/b&gt; %L1 / %L2</source>
-        <translation>&lt;b&gt;Tecken:&lt;/b&gt; %L1 / %L2</translation>
+        <translation>&lt;b&gt;Characters:&lt;/b&gt; %L1 / %L2</translation>
     </message>
     <message>
         <source>Set Delay</source>
-        <translation>Ställ in fördröjning</translation>
+        <translation>Met il Ritart</translation>
     </message>
     <message>
         <source>Set Time</source>
-        <translation>Ställ in tid</translation>
+        <translation>Met il Timp</translation>
     </message>
     <message>
         <source>Delay:</source>
-        <translation>Fördröjning:</translation>
+        <translation>Ritart:</translation>
     </message>
     <message>
         <source>Time:</source>
-        <translation>Tid:</translation>
+        <translation>Timp:</translation>
     </message>
     <message>
         <source>HH:mm:ss</source>
@@ -1250,7 +1250,7 @@
     </message>
     <message>
         <source>Type:</source>
-        <translation>Typ:</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -1258,45 +1258,45 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>Redigera</translation>
+        <translation>Edite</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Ta bort</translation>
+        <translation>Cancele</translation>
     </message>
 </context>
 <context>
     <name>TimerDisplay</name>
     <message>
         <source>HH:mm:ss</source>
-        <translation>HH: mm: ss</translation>
+        <translation>HH:mm:ss</translation>
     </message>
     <message>
         <source>No timers running</source>
-        <translation>Inga tidtagare är igång</translation>
+        <translation>Nissun Timers al va</translation>
     </message>
 </context>
 <context>
     <name>TimerManager</name>
     <message>
         <source>Timers</source>
-        <translation>Tidtagare</translation>
+        <translation>Timers</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Ny</translation>
+        <translation>Gnûf</translation>
     </message>
     <message>
         <source>Recent</source>
-        <translation>Tidigare</translation>
+        <translation>Resint</translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation>Domande</translation>
     </message>
     <message>
         <source>Cancel editing timers?</source>
-        <translation>Avbryt redigering av tidtagare?</translation>
+        <translation>Cancelâ i Timers di Editing?</translation>
     </message>
     <message>
         <source>+HH:mm:ss</source>
@@ -1311,23 +1311,23 @@
     <name>Window</name>
     <message>
         <source>Loading themes</source>
-        <translation>Läser in teman</translation>
+        <translation>O stoi cjariant i temis</translation>
     </message>
     <message>
         <source>Loading sounds</source>
-        <translation>Läser in ljud</translation>
+        <translation>O stoi cjariant i suns</translation>
     </message>
     <message>
         <source>Untitled</source>
-        <translation>Namnlös</translation>
+        <translation>Cence Titul</translation>
     </message>
     <message>
         <source>Open File</source>
-        <translation>Öppna fil</translation>
+        <translation>Vierç File</translation>
     </message>
     <message>
         <source>About FocusWriter</source>
-        <translation>Om FocusWriter</translation>
+        <translation>Su FocusWriter</translation>
     </message>
     <message>
         <source>FocusWriter</source>
@@ -1335,7 +1335,7 @@
     </message>
     <message>
         <source>A simple fullscreen word processor</source>
-        <translation>En enkel ordbehandlare med helskärmsläge</translation>
+        <translation>Un sempliç word processor a plen schermi</translation>
     </message>
     <message>
         <source>Copyright &amp;copy; 2008-%1 Graeme Gott</source>
@@ -1343,167 +1343,167 @@
     </message>
     <message>
         <source>Released under the &lt;a href=%1&gt;GPL 3&lt;/a&gt; license</source>
-        <translation>Släppt under licensen &lt;a href=%1&gt;GPL 3&lt;/a&gt;</translation>
+        <translation>Publicât sot la licenze &lt;a href=%1&gt;GPL 3&lt;/a&gt; </translation>
     </message>
     <message>
         <source>Uses icons from the &lt;a href=%1&gt;Oxygen&lt;/a&gt; icon theme</source>
-        <translation>Använder ikoner från ikontemat &lt;a href=%1&gt;Oxygen&lt;/a&gt;</translation>
+        <translation>Uses icons from the &lt;a href=%1&gt;Oxygen&lt;/a&gt; icon theme</translation>
     </message>
     <message>
         <source>Used under the &lt;a href=%1&gt;LGPL 3&lt;/a&gt; license</source>
-        <translation>Använda under licensen &lt;a href=%1&gt;GPL 3&lt;/a&gt;</translation>
+        <translation>Used under the &lt;a href=%1&gt;LGPL 3&lt;/a&gt; license</translation>
     </message>
     <message>
         <source>Characters: %L1 / %L2</source>
-        <translation>Tecken: %L1 / %L2</translation>
+        <translation>Caratars: %L1 / %L2</translation>
     </message>
     <message>
         <source>Pages: %L1</source>
-        <translation>Sidor: %L1</translation>
+        <translation>Pagjinis: %L1</translation>
     </message>
     <message>
         <source>Paragraphs: %L1</source>
-        <translation>Stycken: %L1</translation>
+        <translation>Paragrapis: %L1</translation>
     </message>
     <message>
         <source>Words: %L1</source>
-        <translation>Ord: %L1</translation>
+        <translation>Peraulis: %L1</translation>
     </message>
     <message>
         <source>Opening %1</source>
-        <translation>Öppnar %1</translation>
+        <translation>Vierzidure %1</translation>
     </message>
     <message>
         <source>(Untitled %1)</source>
-        <translation>(Namnlös %1)</translation>
+        <translation>(Cence Titul %1)</translation>
     </message>
     <message>
         <source>List all documents</source>
-        <translation>Lista alla dokument</translation>
+        <translation>Liste ducj i documents</translation>
     </message>
     <message>
         <source>Switch to Next Document</source>
-        <translation>Växla till nästa dokument</translation>
+        <translation>Cambie in tal prossim document</translation>
     </message>
     <message>
         <source>Switch to Previous Document</source>
-        <translation>Växla till föregående dokument</translation>
+        <translation>Cambie intal document di prime</translation>
     </message>
     <message>
         <source>Switch to First Document</source>
-        <translation>Växla till första dokumentet</translation>
+        <translation>Cambie intal prin document</translation>
     </message>
     <message>
         <source>Switch to Last Document</source>
-        <translation>Växla till sista dokumentet</translation>
+        <translation>Cambie intal ultin document</translation>
     </message>
     <message>
         <source>Switch to Document %1</source>
-        <translation>Växla till dokument %1</translation>
+        <translation>Cambie intal document %1</translation>
     </message>
     <message>
         <source>Loading settings</source>
-        <translation>Läser in inställningar</translation>
+        <translation>O stoi cjariant i setagjios</translation>
     </message>
     <message>
         <source>Emergency cache is not writable.</source>
-        <translation>Nödcachen är inte skrivbar.</translation>
+        <translation>Emergency cache is not writable.</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varning</translation>
+        <translation>Ocjo</translation>
     </message>
     <message>
         <source>FocusWriter was not shut down cleanly.</source>
-        <translation>FocusWriter stängdes inte av korrekt.</translation>
+        <translation>FocusWriter nol è stât sierât par ben.</translation>
     </message>
     <message>
         <source>Restore from the emergency cache?</source>
-        <translation>Återställ från nödcachen?</translation>
+        <translation>Restore from the emergency cache?</translation>
     </message>
     <message>
         <source>Some files could not be opened.</source>
-        <translation>Några filer kunde inte öppnas.</translation>
+        <translation>Cualchi files nol pues jessi viert.</translation>
     </message>
     <message>
         <source>Some files were opened Read-Only.</source>
-        <translation>Några filer öppnades som skrivskyddade.</translation>
+        <translation>Cualchi files al vignarà viert dome in leture.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is newer than the cached copy.</source>
-        <translation>&quot;%1&quot; är nyare än den mellanlagrade kopian.</translation>
+        <translation>&apos;%1&apos; is newer than the cached copy.</translation>
     </message>
     <message>
         <source>Overwrite newer file?</source>
-        <translation>Skriv över nyare fil?</translation>
+        <translation>Overwrite newer file?</translation>
     </message>
     <message>
         <source>Save Changes?</source>
-        <translation>Spara ändringar?</translation>
+        <translation>Salvâ i cambiaments?</translation>
     </message>
     <message>
         <source>Save changes to the file &apos;%1&apos; before closing?</source>
-        <translation>Spara ändringar till filen &quot;%1&quot; innan stängning?</translation>
+        <translation>Salvâ i cambiaments dal file &quot;%1&quot; prin di sierà?</translation>
     </message>
     <message>
         <source>Your changes will be lost if you don&apos;t save them.</source>
-        <translation>Dina ändringar kommer att förloras om du inte sparar dem.</translation>
+        <translation>I cambiaments a vignaran pierdûts se no tu ju salvis.</translation>
     </message>
     <message>
         <source>Unable to load typewriter sounds.</source>
-        <translation>Kunde inte läsa in skrivmaskinsljud.</translation>
+        <translation>Impussibil cjariâ i suns de machine di scrivi.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Arkiv</translation>
+        <translation>File</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nytt</translation>
+        <translation>Gnûf</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Öppna...</translation>
+        <translation>Vierç...</translation>
     </message>
     <message>
         <source>Reloa&amp;d</source>
-        <translation>Läs in &amp;igen</translation>
+        <translation>Ricjarie</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Spara</translation>
+        <translation>Salve</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>Spara so&amp;m...</translation>
+        <translation>Salve cun non...</translation>
     </message>
     <message>
         <source>&amp;Rename...</source>
-        <translation>&amp;Byt namn...</translation>
+        <translation>Rinomine...</translation>
     </message>
     <message>
         <source>Save A&amp;ll</source>
-        <translation>Spara a&amp;lla</translation>
+        <translation>Salve Dut</translation>
     </message>
     <message>
         <source>Manage Sessions</source>
-        <translation>Hantera sessioner</translation>
+        <translation>Remene Sessions</translation>
     </message>
     <message>
         <source>New Session</source>
-        <translation>Ny session</translation>
+        <translation>Gnove Session</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>Skriv &amp;ut...</translation>
+        <translation>Stampe...</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>S&amp;täng</translation>
+        <translation>Siere</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>A&amp;vsluta</translation>
+        <translation>Va Fûr</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -1511,67 +1511,67 @@
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>R&amp;edigera</translation>
+        <translation>Edite</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Ångra</translation>
+        <translation>Indaûr</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Gör om</translation>
+        <translation>Indenant</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Klipp &amp;ut</translation>
+        <translation>Taie</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiera</translation>
+        <translation>Cupie</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>Klistra &amp;in</translation>
+        <translation>Incole</translation>
     </message>
     <message>
         <source>Paste &amp;Unformatted</source>
-        <translation>Klistra in &amp;oformaterat</translation>
+        <translation>Incole Cence Formât</translation>
     </message>
     <message>
         <source>Ctrl+Shift+V</source>
-        <translation>Ctrl+Skift+V</translation>
+        <translation>Ctrl+Shift+V</translation>
     </message>
     <message>
         <source>Select &amp;All</source>
-        <translation>Markera &amp;allt</translation>
+        <translation>Selezione Dut</translation>
     </message>
     <message>
         <source>Select &amp;Scene</source>
-        <translation>Välj &amp;scen</translation>
+        <translation>Selezione Senis</translation>
     </message>
     <message>
         <source>Ctrl+Shift+A</source>
-        <translation>Ctrl+Skift+A</translation>
+        <translation>Ctrl+Shift+A</translation>
     </message>
     <message>
         <source>Fo&amp;rmat</source>
-        <translation>Fo&amp;rmatera</translation>
+        <translation>Formât</translation>
     </message>
     <message>
         <source>&amp;Bold</source>
-        <translation>&amp;Fet</translation>
+        <translation>Gruessut</translation>
     </message>
     <message>
         <source>&amp;Italic</source>
-        <translation>&amp;Kursiv</translation>
+        <translation>Italic</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>&amp;Understruken</translation>
+        <translation>Sotlineât</translation>
     </message>
     <message>
         <source>Stri&amp;kethrough</source>
-        <translation>G&amp;enomstruken</translation>
+        <translation>Sbarât</translation>
     </message>
     <message>
         <source>Ctrl+K</source>
@@ -1579,7 +1579,7 @@
     </message>
     <message>
         <source>Sup&amp;erscript</source>
-        <translation>Upphö&amp;jd</translation>
+        <translation>Superscript</translation>
     </message>
     <message>
         <source>Ctrl+^</source>
@@ -1587,7 +1587,7 @@
     </message>
     <message>
         <source>&amp;Subscript</source>
-        <translation>Nedsän&amp;kt</translation>
+        <translation>Subscript</translation>
     </message>
     <message>
         <source>Ctrl+_</source>
@@ -1595,7 +1595,7 @@
     </message>
     <message>
         <source>Align &amp;Left</source>
-        <translation>Justera &amp;vänster</translation>
+        <translation>Met viers çampe</translation>
     </message>
     <message>
         <source>Ctrl+{</source>
@@ -1603,7 +1603,7 @@
     </message>
     <message>
         <source>Align &amp;Center</source>
-        <translation>Justera &amp;mitten</translation>
+        <translation>Met centrât</translation>
     </message>
     <message>
         <source>Ctrl+|</source>
@@ -1611,7 +1611,7 @@
     </message>
     <message>
         <source>Align &amp;Right</source>
-        <translation>Justera &amp;höger</translation>
+        <translation>Met viers diestre</translation>
     </message>
     <message>
         <source>Ctrl+}</source>
@@ -1619,7 +1619,7 @@
     </message>
     <message>
         <source>Align &amp;Justify</source>
-        <translation>&amp;Justera</translation>
+        <translation>Met in rie e giustifiche</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
@@ -1627,7 +1627,7 @@
     </message>
     <message>
         <source>&amp;Decrease Indent</source>
-        <translation>&amp;Minska indrag</translation>
+        <translation>Scurte Identazion</translation>
     </message>
     <message>
         <source>Ctrl+&lt;</source>
@@ -1635,7 +1635,7 @@
     </message>
     <message>
         <source>I&amp;ncrease Indent</source>
-        <translation>Öka in&amp;drag</translation>
+        <translation>Aumente Identazion</translation>
     </message>
     <message>
         <source>Ctrl+&gt;</source>
@@ -1643,31 +1643,31 @@
     </message>
     <message>
         <source>Le&amp;ft to Right Block</source>
-        <translation>Vänster till &amp;högerblock</translation>
+        <translation>Le&amp;ft to Right Block</translation>
     </message>
     <message>
         <source>Ri&amp;ght to Left Block</source>
-        <translation>Höger till &amp;vänsterblock</translation>
+        <translation>Ri&amp;ght to Left Block</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>Ver&amp;ktyg</translation>
+        <translation>Imprescj</translation>
     </message>
     <message>
         <source>&amp;Find...</source>
-        <translation>&amp;Sök...</translation>
+        <translation>Cjate...</translation>
     </message>
     <message>
         <source>Find &amp;Next</source>
-        <translation>Sök &amp;nästa</translation>
+        <translation>Cjate Indenant</translation>
     </message>
     <message>
         <source>Find Pre&amp;vious</source>
-        <translation>Sök &amp;föregående</translation>
+        <translation>Cjate Indaûr</translation>
     </message>
     <message>
         <source>&amp;Replace...</source>
-        <translation>&amp;Ersätt...</translation>
+        <translation>Rimplace...</translation>
     </message>
     <message>
         <source>Ctrl+R</source>
@@ -1675,19 +1675,19 @@
     </message>
     <message>
         <source>Smart &amp;Quotes</source>
-        <translation>Smarta &amp;citationstecken</translation>
+        <translation>Smart Quotes</translation>
     </message>
     <message>
         <source>Update &amp;Document</source>
-        <translation>Uppdatera &amp;dokument</translation>
+        <translation>Inzorne Document</translation>
     </message>
     <message>
         <source>Update &amp;Selection</source>
-        <translation>Uppdatera &amp;markering</translation>
+        <translation>Inzorne Selezion</translation>
     </message>
     <message>
         <source>&amp;Spelling...</source>
-        <translation>Sta&amp;vning...</translation>
+        <translation>Spelling...</translation>
     </message>
     <message>
         <source>F7</source>
@@ -1695,39 +1695,39 @@
     </message>
     <message>
         <source>Set &amp;Language...</source>
-        <translation>Ställ in &amp;Språk...</translation>
+        <translation>Met Lenghe</translation>
     </message>
     <message>
         <source>&amp;Timers...</source>
-        <translation>&amp;Tidtagare...</translation>
+        <translation>Timers...</translation>
     </message>
     <message>
         <source>S&amp;ymbols...</source>
-        <translation>S&amp;ymboler...</translation>
+        <translation>Simbui...</translation>
     </message>
     <message>
         <source>&amp;Daily Progress</source>
-        <translation>&amp;Dagliga framsteg</translation>
+        <translation>Progres de Zornade</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Inställningar</translation>
+        <translation>Settings</translation>
     </message>
     <message>
         <source>Show &amp;Toolbar</source>
-        <translation>Visa &amp;verktygsrad</translation>
+        <translation>Mostre Toolbar</translation>
     </message>
     <message>
         <source>Show &amp;Menu Icons</source>
-        <translation>Visa &amp;menyikoner</translation>
+        <translation>Mostre Iconis dal Menu</translation>
     </message>
     <message>
         <source>F&amp;ocused Text</source>
-        <translation>F&amp;okuserad text</translation>
+        <translation>Test Focalizât</translation>
     </message>
     <message>
         <source>&amp;Fullscreen</source>
-        <translation>&amp;Helskärm</translation>
+        <translation>Plen Schermi</translation>
     </message>
     <message>
         <source>F11</source>
@@ -1739,7 +1739,7 @@
     </message>
     <message>
         <source>M&amp;inimize</source>
-        <translation>Mi&amp;nimera</translation>
+        <translation>Minimize</translation>
     </message>
     <message>
         <source>Ctrl+M</source>
@@ -1747,111 +1747,111 @@
     </message>
     <message>
         <source>&amp;Themes...</source>
-        <translation>&amp;Teman...</translation>
+        <translation>Temis...</translation>
     </message>
     <message>
         <source>&amp;Preferences...</source>
-        <translation>&amp;Inställningar...</translation>
+        <translation>Preferencis...</translation>
     </message>
     <message>
         <source>Focus Off</source>
-        <translation>Fokus av</translation>
+        <translation>Focus Off</translation>
     </message>
     <message>
         <source>Focus One Line</source>
-        <translation>Fokusera en rad</translation>
+        <translation>Focus Une Rie</translation>
     </message>
     <message>
         <source>Focus Three Lines</source>
-        <translation>Fokusera tre rader</translation>
+        <translation>Focus Trê Riis</translation>
     </message>
     <message>
         <source>&amp;Paragraph</source>
-        <translation>&amp;Stycke</translation>
+        <translation>Paragrafi</translation>
     </message>
     <message>
         <source>Focus Paragraph</source>
-        <translation>Fokusera stycke</translation>
+        <translation>Focus Paragrafi</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Hjälp</translation>
+        <translation>Jutori</translation>
     </message>
     <message>
         <source>Application &amp;Language...</source>
-        <translation>Programs&amp;pråk...</translation>
+        <translation>Lenghe de Applicazion...</translation>
     </message>
     <message>
         <source>Some files were unsupported and could not be opened.</source>
-        <translation>Några filer stöds inte och kunde inte öppnas.</translation>
+        <translation>Cualchi files nol è supuartât e nol vignarà viert.</translation>
     </message>
     <message>
         <source>&amp;Off</source>
-        <translation>&amp;Av</translation>
+        <translation>Off</translation>
     </message>
     <message>
         <source>One &amp;Line</source>
-        <translation>En &amp;rad</translation>
+        <translation>Une Rie</translation>
     </message>
     <message>
         <source>&amp;Three Lines</source>
-        <translation>&amp;Tre rader</translation>
+        <translation>Trê Riis</translation>
     </message>
     <message>
         <source>&amp;About</source>
-        <translation>&amp;Om</translation>
+        <translation>Informazions</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Om &amp;Qt</translation>
+        <translation>Informazions su QT</translation>
     </message>
     <message>
         <source>Pa&amp;ge Setup...</source>
-        <translation>Si&amp;dinställning...</translation>
+        <translation>Setup Pagjine...</translation>
     </message>
     <message>
         <source>&amp;Heading</source>
-        <translation>&amp;Rubrik</translation>
+        <translation>Intestazion</translation>
     </message>
     <message>
         <source>Heading &amp;1</source>
-        <translation>Rubrik &amp;1</translation>
+        <translation>Intestazion &amp;1</translation>
     </message>
     <message>
         <source>Heading &amp;2</source>
-        <translation>Rubrik &amp;2</translation>
+        <translation>Intestazion &amp;2</translation>
     </message>
     <message>
         <source>Heading &amp;3</source>
-        <translation>Rubrik &amp;3</translation>
+        <translation>Intestazion &amp;3</translation>
     </message>
     <message>
         <source>Heading &amp;4</source>
-        <translation>Rubrik &amp;4</translation>
+        <translation>Intestazion &amp;4</translation>
     </message>
     <message>
         <source>Heading &amp;5</source>
-        <translation>Rubrik &amp;5</translation>
+        <translation>Intestazion &amp;5</translation>
     </message>
     <message>
         <source>Heading &amp;6</source>
-        <translation>Rubrik &amp;6</translation>
+        <translation>Intestazion &amp;6</translation>
     </message>
     <message>
         <source>&amp;Normal</source>
-        <translation>&amp;Normal</translation>
+        <translation>Normâl</translation>
     </message>
     <message>
         <source>Update Document Smart Quotes</source>
-        <translation>Uppdatera dokument smarta citationstecken</translation>
+        <translation>Inzorne Document Smart Quotes</translation>
     </message>
     <message>
         <source>Update Selection Smart Quotes</source>
-        <translation>Uptatera markering smarta citationstecken</translation>
+        <translation>Inzorne Selezion Smart Quotes</translation>
     </message>
     <message>
         <source>Ctrl+Shift+`</source>
-        <translation>Ctrl+Skift+`</translation>
+        <translation>Ctrl+Shift+`</translation>
     </message>
 </context>
 </TS>

@@ -1,6 +1,6 @@
 /***********************************************************************
  *
- * Copyright (C) 2013, 2014, 2016, 2017 Graeme Gott <graeme@gottcode.org>
+ * Copyright (C) 2013, 2014, 2016, 2017, 2019 Graeme Gott <graeme@gottcode.org>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -71,13 +71,8 @@ public:
 			if (progress == 0) {
 				opt.backgroundBrush = opt.palette.alternateBase();
 			} else if (progress == 100) {
-#if (QT_VERSION >= QT_VERSION_CHECK(5,6,0))
 				const qreal pixelratio = painter->device()->devicePixelRatioF();
-#else
-				const qreal pixelratio = painter->device()->devicePixelRatio();
-#endif
 				painter->drawPixmap(QPointF(opt.rect.topLeft()), fetchStarBackground(opt, pixelratio));
-				opt.backgroundBrush = Qt::transparent;
 				opt.font.setBold(true);
 			} else {
 				qreal k = (progress * 0.009) + 0.1;
@@ -160,7 +155,7 @@ DailyProgressDialog::DailyProgressDialog(DailyProgress* progress, QWidget* paren
 	m_display->verticalHeader()->hide();
 	m_display->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 	m_display->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
-	connect(progress, SIGNAL(modelReset()), this, SLOT(modelReset()));
+	connect(progress, &DailyProgress::modelReset, this, &DailyProgressDialog::modelReset);
 
 	m_delegate = new Delegate(this);
 	m_display->setItemDelegate(m_delegate);
@@ -208,12 +203,12 @@ DailyProgressDialog::DailyProgressDialog(DailyProgress* progress, QWidget* paren
 	m_current_streak = new QLabel(m_streaks);
 
 	QHBoxLayout* streaks_layout = new QHBoxLayout(m_streaks);
-	streaks_layout->setMargin(0);
+	streaks_layout->setContentsMargins(0, 0, 0, 0);
 	streaks_layout->addWidget(m_longest_streak);
 	streaks_layout->addWidget(streak_divider);
 	streaks_layout->addWidget(m_current_streak);
 
-	connect(m_progress, SIGNAL(streaksChanged()), this, SLOT(streaksChanged()));
+	connect(m_progress, &DailyProgress::streaksChanged, this, &DailyProgressDialog::streaksChanged);
 	streaksChanged();
 
 	// Lay out dialog
